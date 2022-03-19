@@ -4,11 +4,11 @@ echo -e "\n\nLaunching merstab_kaf...\n\n"
 
 bash reset.sh
 
-# tsc _sample.ts && node _sample.js
+tsc _sample.ts && node _sample.js
 
-# docker-compose up -d
+docker-compose up -d
 echo -e "\n\nDocker containers pulled, initializing...\n"
-# sleep 10
+sleep 10
 
 # Make sure the platform is running
 echo -e "\n\nRestarting any failed containers.\n"
