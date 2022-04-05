@@ -178,12 +178,12 @@ services:
 
   postgres:
     image: postgres:14.2
-    hostname: postgres-merstab
+    hostname: postgres-mango
     expose:
       - 5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: pass
-      POSTGRES_DB: merstab-kaf
+      POSTGRES_DB: mango-kaf
     volumes:
         - ./up.sql:/docker-entrypoint-initdb.d/up.sql
