@@ -1,4 +1,4 @@
-# merstab-kaf
+# mango-kaf
 #### Write your Pub-Sub struct imports into the typescript file `_sample.ts`
 ```shell
 up.sh
