@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n\nLaunching merstab_kaf...\n\n"
+echo -e "\n\nLaunching mango_kaf...\n\n"
 
 bash reset.sh
 
